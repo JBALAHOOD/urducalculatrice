@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Calculator body -->
+  <rect x="15" y="10" width="70" height="80" rx="8" ry="8" fill="url(#grad1)" stroke="#1E40AF" stroke-width="2"/>
+  
+  <!-- Display screen -->
+  <rect x="22" y="17" width="56" height="18" rx="3" ry="3" fill="#1F2937"/>
+  
+  <!-- Display text (Urdu numerals) -->
+  <text x="74" y="30" font-family="Arial, sans-serif" font-size="12" fill="#10B981" text-anchor="end" direction="rtl">١٢٣</text>
+  
+  <!-- Button grid -->
+  <!-- Row 1 -->
+  <circle cx="30" cy="45" r="6" fill="#EF4444"/>
+  <circle cx="45" cy="45" r="6" fill="#F97316"/>
+  <circle cx="60" cy="45" r="6" fill="#3B82F6"/>
+  <circle cx="75" cy="45" r="6" fill="#3B82F6"/>
+  
+  <!-- Row 2 -->
+  <circle cx="30" cy="58" r="6" fill="#F3F4F6"/>
+  <circle cx="45" cy="58" r="6" fill="#F3F4F6"/>
+  <circle cx="60" cy="58" r="6" fill="#F3F4F6"/>
+  <circle cx="75" cy="58" r="6" fill="#3B82F6"/>
+  
+  <!-- Row 3 -->
+  <circle cx="30" cy="71" r="6" fill="#F3F4F6"/>
+  <circle cx="45" cy="71" r="6" fill="#F3F4F6"/>
+  <circle cx="60" cy="71" r="6" fill="#F3F4F6"/>
+  <circle cx="75" cy="71" r="6" fill="#3B82F6"/>
+  
+  <!-- Row 4 -->
+  <circle cx="30" cy="84" r="6" fill="#F3F4F6"/>
+  <circle cx="45" cy="84" r="6" fill="#F3F4F6"/>
+  <circle cx="60" cy="84" r="6" fill="#F3F4F6"/>
+  <circle cx="75" cy="84" r="6" fill="#10B981"/>
+  
+  <!-- Button symbols -->
+  <text x="30" y="48" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">C</text>
+  <text x="45" y="48" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">CE</text>
+  <text x="60" y="48" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">÷</text>
+  <text x="75" y="48" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">×</text>
+  
+  <text x="30" y="61" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">٧</text>
+  <text x="45" y="61" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">٨</text>
+  <text x="60" y="61" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">٩</text>
+  <text x="75" y="61" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">-</text>
+  
+  <text x="30" y="74" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">٤</text>
+  <text x="45" y="74" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">٥</text>
+  <text x="60" y="74" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">٦</text>
+  <text x="75" y="74" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">+</text>
+  
+  <text x="30" y="87" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">١</text>
+  <text x="45" y="87" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">٢</text>
+  <text x="60" y="87" font-family="Arial, sans-serif" font-size="10" fill="#374151" text-anchor="middle">٣</text>
+  <text x="75" y="87" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">=</text>
+</svg>
